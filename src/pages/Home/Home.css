@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.jana{
+background-color: aqua;
+}
+.hedr{
+background-color: yellow;
+}
+.strom{
+background-color: green;
+color: white;
+}
+.cerni{
+background-color: orangered;
+}
+.kurzo{
+background-color: pink;
+}
+.tott{
+background-color: darkgreen;
+color: white;
+}
+.kurz{
+background-color: aquamarine;
+}
+.smej{
+background-color: blueviolet;
+}
+.orvosova{
+background-color: orange;
+}
+.meste{
+background-color: darkblue;
+color: white;
+}
+.hajna{
+background-color: rgb(153, 9, 9);
+color: white;
+}
+.orvos{
+background-color: burlywood;
+}
+.nechv{
+background-color: black;
+color: white;
+}
+table{
+display: inline-block;
+}
+td{
+text-align: center;
+}
+th{
+text-align: center;
+}
+.ucitele{
+background-color: rgb(170, 170, 170);
+}
+.ucitele_2{
+display: none;
+}
+.barva{
+background-color: rgb(170, 170, 170);
+}
+.bila_2{
+background-color: white;
+}
+@media screen and (max-width:1000px){
+#patek{
+display: table;
+}
+}
+@media screen and (max-width:600px){
+.ucitele{
+display: none; 
+}
+.ucitele_2{
+display: table;
+}
+}
